@@ -8,3 +8,8 @@ D:\Personal Work\Arjun\Hashtag Finder\HashtagFinder\bin\Debug\HashtagFinder.exe
 D:\Personal Work\Arjun\Hashtag Finder\HashtagFinder\bin\Debug\HashtagFinder.pdb
 D:\Personal Work\Arjun\Hashtag Finder\HashtagFinder\obj\Debug\HashtagFinder.exe
 D:\Personal Work\Arjun\Hashtag Finder\HashtagFinder\obj\Debug\HashtagFinder.pdb
+D:\Personal Work\Arjun\Hashtag Finder\HashtagFinder\bin\Debug\HashtagFinder.exe.manifest
+D:\Personal Work\Arjun\Hashtag Finder\HashtagFinder\bin\Debug\HashtagFinder.application
+D:\Personal Work\Arjun\Hashtag Finder\HashtagFinder\obj\Debug\HashtagFinder.TrustInfo.xml
+D:\Personal Work\Arjun\Hashtag Finder\HashtagFinder\obj\Debug\HashtagFinder.exe.manifest
+D:\Personal Work\Arjun\Hashtag Finder\HashtagFinder\obj\Debug\HashtagFinder.application
