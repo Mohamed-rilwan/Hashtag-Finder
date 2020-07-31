@@ -40,6 +40,7 @@
             this.bird = new System.Windows.Forms.CheckBox();
             this.travel = new System.Windows.Forms.CheckBox();
             this.animal = new System.Windows.Forms.CheckBox();
+            this.removeAddedTag = new System.Windows.Forms.Button();
             this.saveBtn = new System.Windows.Forms.Button();
             this.copy = new System.Windows.Forms.Button();
             this.generateBtn = new System.Windows.Forms.Button();
@@ -131,7 +132,7 @@
             // AddHashtag
             // 
             this.AddHashtag.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AddHashtag.Location = new System.Drawing.Point(440, 112);
+            this.AddHashtag.Location = new System.Drawing.Point(428, 109);
             this.AddHashtag.Name = "AddHashtag";
             this.AddHashtag.Size = new System.Drawing.Size(254, 26);
             this.AddHashtag.TabIndex = 3;
@@ -199,6 +200,23 @@
             this.animal.UseVisualStyleBackColor = true;
             this.animal.CheckedChanged += new System.EventHandler(this.animal_CheckedChanged);
             // 
+            // removeAddedTag
+            // 
+            this.removeAddedTag.BackColor = System.Drawing.Color.MidnightBlue;
+            this.removeAddedTag.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.removeAddedTag.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.removeAddedTag.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.removeAddedTag.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.removeAddedTag.Image = global::HashtagFinder.Properties.Resources.reduce_30px;
+            this.removeAddedTag.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.removeAddedTag.Location = new System.Drawing.Point(721, 103);
+            this.removeAddedTag.Name = "removeAddedTag";
+            this.removeAddedTag.Size = new System.Drawing.Size(50, 37);
+            this.removeAddedTag.TabIndex = 16;
+            this.removeAddedTag.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.removeAddedTag.UseVisualStyleBackColor = false;
+            this.removeAddedTag.Click += new System.EventHandler(this.button1_Click_3);
+            // 
             // saveBtn
             // 
             this.saveBtn.BackColor = System.Drawing.Color.DarkGray;
@@ -261,7 +279,7 @@
             this.AddBtn.ForeColor = System.Drawing.Color.MidnightBlue;
             this.AddBtn.Image = global::HashtagFinder.Properties.Resources.add_new_30px1;
             this.AddBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.AddBtn.Location = new System.Drawing.Point(702, 105);
+            this.AddBtn.Location = new System.Drawing.Point(685, 103);
             this.AddBtn.Name = "AddBtn";
             this.AddBtn.Size = new System.Drawing.Size(50, 37);
             this.AddBtn.TabIndex = 12;
@@ -274,6 +292,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.MidnightBlue;
             this.ClientSize = new System.Drawing.Size(800, 500);
+            this.Controls.Add(this.removeAddedTag);
             this.Controls.Add(this.saveBtn);
             this.Controls.Add(this.copy);
             this.Controls.Add(this.generateBtn);
@@ -315,6 +334,7 @@
         private System.Windows.Forms.Button minimizeBtn;
         private System.Windows.Forms.Button copy;
         private System.Windows.Forms.Button saveBtn;
+        private System.Windows.Forms.Button removeAddedTag;
     }
 }
 

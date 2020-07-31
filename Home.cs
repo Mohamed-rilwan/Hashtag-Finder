@@ -44,7 +44,6 @@ namespace Hashtag_Finder
         {
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
             this.WindowState = FormWindowState.Normal;
-
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -145,7 +144,7 @@ namespace Hashtag_Finder
             {
                 type = 3;
             }
-            if (birdCheck && animalCheck && travelCheck || animalCheck && travelCheck || birdCheck && travelCheck || animalCheck && birdCheck)
+            if (birdCheck && animalCheck && travelCheck)
             {
                 type = 4;
             }
@@ -161,6 +160,7 @@ namespace Hashtag_Finder
             {
                 type = 7;
             }
+           
             Hashtags.Items.Clear();
             hashtags = HashtagFinder.HashtagFind(hashtagSample, type);
             for(int index=0; index < hashtags.Count; index++)
@@ -200,10 +200,6 @@ namespace Hashtag_Finder
             }
         }
 
-        private void button5_Click_2(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
 
         int mouseX = 0, mouseY = 0;
         bool mouseDown;
@@ -237,6 +233,15 @@ namespace Hashtag_Finder
             }
             System.Windows.Forms.Clipboard.SetText(allHashtags+allAddedTags);
             addedTags.Clear();
+        }
+
+        private void button1_Click_3(object sender, EventArgs e)
+        {
+            if(addedTags.Count!=0)
+            {
+                addedTags.Remove(AddHashtag.Text);
+                Hashtags.Items.Remove(AddHashtag.Text);
+            }
         }
 
         private void button1_Click_2(object sender, EventArgs e)

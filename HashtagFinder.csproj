@@ -147,6 +147,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icons8_hashtag.ico" />
+    <None Include="Resources\reduce_30px.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">

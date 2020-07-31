@@ -24,18 +24,17 @@ namespace Hashtag_Finder
 
             List<string> OutputHashtag = new List<string>();
 
-            Tuple<string[], string[], string[], string[],int> value = Constant.Values();
+            Tuple<string[], string[], string[],int> value = Constant.Values();
             string[] BirdHashtagArray = value.Item1;
             string[] AnimalHashtagArray = value.Item2;
             string[] TravelHashtagArray = value.Item3;
-            string[] CommonHashtagArray = value.Item4;
             
-            int percent = value.Item5;
+            int percent = value.Item4;
            
             int birdCount = Convert.ToInt32(BirdHashtagArray.Length * percent);
             int animalCount = Convert.ToInt32(AnimalHashtagArray.Length * percent);
             int travelCount = Convert.ToInt32(TravelHashtagArray.Length * percent);
-            int commonCount = Convert.ToInt32(CommonHashtagArray.Length * percent);
+
             Random rand = new Random();
             List<int> birdNumber = new List<int>();
             List<int> animalNumber = new List<int>();
@@ -193,7 +192,6 @@ namespace Hashtag_Finder
                     returnHashtag.Add(birdTravel[combineNumber[i]]);
                 }
             }
-
             return (returnHashtag);
         }
     }
