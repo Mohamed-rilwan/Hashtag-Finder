@@ -19,7 +19,7 @@ namespace Hashtag_Finder
             List<string> AnimalHashtag = new List<string>();
             List<string> TravelHashtag = new List<string>();
             List<string> CommonHashtag = new List<string>();
-            List<string> CombinationHashtag = new List<string>();
+            var CombinationHashtag = new List<string>();
             List<string> returnHashtag = new List<string>();
 
             List<string> OutputHashtag = new List<string>();
@@ -57,7 +57,7 @@ namespace Hashtag_Finder
 
                 for (int i = 0; i < birdNumber.Count; i++)
                 {
-                    returnHashtag.Add(BirdHashtagArray[i]);
+                    returnHashtag.Add(BirdHashtagArray[birdNumber[i]]);
                 }
             }
 
@@ -76,7 +76,7 @@ namespace Hashtag_Finder
 
                 for (int i = 0; i < travelNumber.Count; i++)
                 {
-                    returnHashtag.Add(TravelHashtagArray[i]);
+                    returnHashtag.Add(TravelHashtagArray[travelNumber[i]]);
                 }
             }
 
@@ -93,25 +93,104 @@ namespace Hashtag_Finder
                 }
                 for (int i = 0; i < animalNumber.Count; i++)
                 {
-                    returnHashtag.Add(AnimalHashtagArray[i]);
+                    returnHashtag.Add(AnimalHashtagArray[animalNumber[i]]);
                 }
             }
          
             else if (type == 4 )
             {
+                CombinationHashtag.Clear();
+                combineNumber.Clear();
+                CombinationHashtag.AddRange(BirdHashtagArray);
+                CombinationHashtag.AddRange(AnimalHashtagArray);
+                CombinationHashtag.AddRange(TravelHashtagArray);
+                string[] birdAnimalTravel = CombinationHashtag.ToArray();
 
                 int number4;
-                for (int i = 0; i < commonCount ; i++)
+
+                for (int i = 0; i < CombinationHashtag.Count; i++)
                 {
                     do
                     {
-                        number4 = rand.Next(0, CommonHashtagArray.Length);
-                    } while (commonNumber.Contains(number4));
-                    commonNumber.Add(number4);
+                        number4 = rand.Next(0, CombinationHashtag.Count);
+                    } while (combineNumber.Contains(number4));
+                    combineNumber.Add(number4);
                 }
-                for (int i = 0; i < commonNumber.Count; i++)
+                for (int i = 0; i < combineNumber.Count; i++)
                 {
-                    returnHashtag.Add(CommonHashtagArray[i]);
+                    returnHashtag.Add(birdAnimalTravel[combineNumber[i]]);
+                }
+            }
+
+            else if (type == 5)
+            {
+                CombinationHashtag.Clear();
+                combineNumber.Clear();
+                CombinationHashtag.AddRange(BirdHashtagArray);
+                CombinationHashtag.AddRange(AnimalHashtagArray);
+                string[] birdAnimal = CombinationHashtag.ToArray();
+
+                int number5;
+
+                for (int i = 0; i < CombinationHashtag.Count; i++)
+                {
+                    do
+                    {
+                        number5 = rand.Next(0, CombinationHashtag.Count);
+                    } while (combineNumber.Contains(number5));
+                    combineNumber.Add(number5);
+                }
+                for (int i = 0; i < combineNumber.Count; i++)
+                {
+                    returnHashtag.Add(birdAnimal[combineNumber[i]]);
+                }
+            }
+
+            else if (type == 6)
+            {
+                CombinationHashtag.Clear();
+                combineNumber.Clear();
+                CombinationHashtag.AddRange(AnimalHashtagArray);
+                CombinationHashtag.AddRange(TravelHashtagArray);
+                string[] animalTravel = CombinationHashtag.ToArray();
+
+                int number6;
+
+                for (int i = 0; i < CombinationHashtag.Count; i++)
+                {
+                    do
+                    {
+                        number6 = rand.Next(0, CombinationHashtag.Count);
+                    } while (combineNumber.Contains(number6));
+                    combineNumber.Add(number6);
+                }
+                for (int i = 0; i < combineNumber.Count; i++)
+                {
+                    returnHashtag.Add(animalTravel[combineNumber[i]]);
+                }
+            }
+
+            else if (type == 7)
+            {
+                CombinationHashtag.Clear();
+                combineNumber.Clear();
+                CombinationHashtag.AddRange(BirdHashtagArray);
+                CombinationHashtag.AddRange(TravelHashtagArray);
+                string[] birdTravel = CombinationHashtag.ToArray();
+
+                int number7;
+
+                for (int i = 0; i < CombinationHashtag.Count; i++)
+                {
+                    do
+                    {
+                        number7 = rand.Next(0, CombinationHashtag.Count);
+                    } while (combineNumber.Contains(number7));
+                    combineNumber.Add(number7);
+                }
+                for (int i = 0; i < combineNumber.Count; i++)
+                {
+                    returnHashtag.Add(birdTravel[combineNumber[i]]);
                 }
             }
 

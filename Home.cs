@@ -149,18 +149,18 @@ namespace Hashtag_Finder
             {
                 type = 4;
             }
-            //if (birdCheck && animalCheck && !travelCheck)
-            //{
-            //    type = 5;
-            //}
-            //if (birdCheck && !animalCheck && travelCheck)
-            //{
-            //    type = 6;
-            //}
-            //if (!birdCheck && animalCheck && travelCheck)
-            //{
-            //    type = 7;
-            //}
+            if (birdCheck && animalCheck && !travelCheck)
+            {
+                type = 5;
+            }
+            if (!birdCheck && animalCheck && travelCheck)
+            {
+                type = 6;
+            }
+            if (birdCheck && !animalCheck && travelCheck)
+            {
+                type = 7;
+            }
             Hashtags.Items.Clear();
             hashtags = HashtagFinder.HashtagFind(hashtagSample, type);
             for(int index=0; index < hashtags.Count; index++)
