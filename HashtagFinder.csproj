@@ -52,10 +52,10 @@
     <ApplicationIcon>icons8_hashtag.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>5A0F0588F66BE9801850B57B9FC12FA8B059116E</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>796A6818B4A9EA6881B9103BC51A29F874E1FECE</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>HashtagFinder_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>HashtagFinder_1_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -106,7 +106,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="HashtagFinder_TemporaryKey.pfx" />
+    <None Include="HashtagFinder_1_TemporaryKey.pfx" />
     <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

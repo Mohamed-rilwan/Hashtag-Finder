@@ -13,3 +13,18 @@ D:\Personal Work\Arjun\Hashtag Finder\HashtagFinder\bin\Debug\HashtagFinder.appl
 D:\Personal Work\Arjun\Hashtag Finder\HashtagFinder\obj\Debug\HashtagFinder.TrustInfo.xml
 D:\Personal Work\Arjun\Hashtag Finder\HashtagFinder\obj\Debug\HashtagFinder.exe.manifest
 D:\Personal Work\Arjun\Hashtag Finder\HashtagFinder\obj\Debug\HashtagFinder.application
+D:\Personal\Hashtag-Finder\bin\Debug\HashtagFinder.exe.config
+D:\Personal\Hashtag-Finder\bin\Debug\HashtagFinder.exe.manifest
+D:\Personal\Hashtag-Finder\bin\Debug\HashtagFinder.application
+D:\Personal\Hashtag-Finder\bin\Debug\HashtagFinder.exe
+D:\Personal\Hashtag-Finder\bin\Debug\HashtagFinder.pdb
+D:\Personal\Hashtag-Finder\obj\Debug\HashtagFinder.csproj.AssemblyReference.cache
+D:\Personal\Hashtag-Finder\obj\Debug\Hashtag_Finder.Home.resources
+D:\Personal\Hashtag-Finder\obj\Debug\HashtagFinder.Properties.Resources.resources
+D:\Personal\Hashtag-Finder\obj\Debug\HashtagFinder.csproj.GenerateResource.cache
+D:\Personal\Hashtag-Finder\obj\Debug\HashtagFinder.csproj.CoreCompileInputs.cache
+D:\Personal\Hashtag-Finder\obj\Debug\HashtagFinder.TrustInfo.xml
+D:\Personal\Hashtag-Finder\obj\Debug\HashtagFinder.exe.manifest
+D:\Personal\Hashtag-Finder\obj\Debug\HashtagFinder.application
+D:\Personal\Hashtag-Finder\obj\Debug\HashtagFinder.exe
+D:\Personal\Hashtag-Finder\obj\Debug\HashtagFinder.pdb

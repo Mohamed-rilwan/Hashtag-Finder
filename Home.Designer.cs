@@ -84,7 +84,7 @@
             this.label1.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(231, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(252, 39);
+            this.label1.Size = new System.Drawing.Size(281, 43);
             this.label1.TabIndex = 0;
             this.label1.Text = "Hashtag Finder";
             // 
@@ -123,10 +123,10 @@
             // 
             this.Hashtags.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Hashtags.FormattingEnabled = true;
-            this.Hashtags.ItemHeight = 22;
+            this.Hashtags.ItemHeight = 24;
             this.Hashtags.Location = new System.Drawing.Point(383, 155);
             this.Hashtags.Name = "Hashtags";
-            this.Hashtags.Size = new System.Drawing.Size(369, 202);
+            this.Hashtags.Size = new System.Drawing.Size(369, 196);
             this.Hashtags.TabIndex = 2;
             // 
             // AddHashtag
@@ -134,7 +134,7 @@
             this.AddHashtag.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddHashtag.Location = new System.Drawing.Point(428, 109);
             this.AddHashtag.Name = "AddHashtag";
-            this.AddHashtag.Size = new System.Drawing.Size(254, 26);
+            this.AddHashtag.Size = new System.Drawing.Size(254, 27);
             this.AddHashtag.TabIndex = 3;
             // 
             // label2
@@ -145,7 +145,7 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(500, 80);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(134, 22);
+            this.label2.Size = new System.Drawing.Size(143, 24);
             this.label2.TabIndex = 1;
             this.label2.Text = "Add Hashtag";
             // 
@@ -157,7 +157,7 @@
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(44, 120);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(194, 33);
+            this.label3.Size = new System.Drawing.Size(217, 37);
             this.label3.TabIndex = 5;
             this.label3.Text = "Choose Topic";
             // 
@@ -168,7 +168,7 @@
             this.bird.ForeColor = System.Drawing.Color.White;
             this.bird.Location = new System.Drawing.Point(48, 199);
             this.bird.Name = "bird";
-            this.bird.Size = new System.Drawing.Size(64, 28);
+            this.bird.Size = new System.Drawing.Size(75, 34);
             this.bird.TabIndex = 6;
             this.bird.Text = "Bird";
             this.bird.UseVisualStyleBackColor = true;
@@ -181,7 +181,7 @@
             this.travel.ForeColor = System.Drawing.Color.White;
             this.travel.Location = new System.Drawing.Point(48, 278);
             this.travel.Name = "travel";
-            this.travel.Size = new System.Drawing.Size(89, 28);
+            this.travel.Size = new System.Drawing.Size(103, 34);
             this.travel.TabIndex = 7;
             this.travel.Text = "Travel";
             this.travel.UseVisualStyleBackColor = true;
@@ -194,7 +194,7 @@
             this.animal.ForeColor = System.Drawing.Color.White;
             this.animal.Location = new System.Drawing.Point(48, 361);
             this.animal.Name = "animal";
-            this.animal.Size = new System.Drawing.Size(100, 28);
+            this.animal.Size = new System.Drawing.Size(116, 34);
             this.animal.TabIndex = 8;
             this.animal.Text = "Animal";
             this.animal.UseVisualStyleBackColor = true;
@@ -228,7 +228,7 @@
             this.saveBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.saveBtn.Location = new System.Drawing.Point(238, 451);
             this.saveBtn.Name = "saveBtn";
-            this.saveBtn.Size = new System.Drawing.Size(194, 37);
+            this.saveBtn.Size = new System.Drawing.Size(219, 37);
             this.saveBtn.TabIndex = 15;
             this.saveBtn.Text = "Save as text file";
             this.saveBtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -261,9 +261,9 @@
             this.generateBtn.ForeColor = System.Drawing.Color.White;
             this.generateBtn.Image = global::HashtagFinder.Properties.Resources.add_new_30px1;
             this.generateBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.generateBtn.Location = new System.Drawing.Point(458, 398);
+            this.generateBtn.Location = new System.Drawing.Point(441, 363);
             this.generateBtn.Name = "generateBtn";
-            this.generateBtn.Size = new System.Drawing.Size(225, 37);
+            this.generateBtn.Size = new System.Drawing.Size(241, 37);
             this.generateBtn.TabIndex = 13;
             this.generateBtn.Text = "Generate Hashtag";
             this.generateBtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
