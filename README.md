@@ -4,7 +4,6 @@
 
 Hashtag Finder is a Windows application designed to simplify your social media posting by providing you with a random list of hashtags related to various topics. Whether you're posting about birds, animals, or travel, this app has got you covered. It offers the flexibility to copy hashtags directly to your clipboard or save them as a text file for later use. Plus, you can even add your own hashtags to the randomly generated list. Say goodbye to the hassle of manually searching for hashtags; Hashtag Finder is here to make your social media posting experience more convenient.
 
-[image](Resources/App.png)
 ![App](https://github.com/Mohamed-rilwan/Hashtag-Finder/assets/44545353/a1ac989c-f8de-424d-b4b2-45dc1b426c59)
 
 
