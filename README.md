@@ -55,7 +55,7 @@ If you encounter any issues or have questions about Hashtag Finder, please raise
 
 ## Feedback
 
-I value your feedback! If you have suggestions, feature requests, or any comments about Hashtag Finder, please let me know. You can reach out to me through our [email](s.mohamedrilwan@outlook.com).
+I value your feedback! If you have suggestions, feature requests, or any comments about Hashtag Finder, please let me know. You can reach out to me through s.mohamedrilwan@outlook.com.
 
 
 Thank you for choosing Hashtag Finder to enhance your social media posting experience. I hope you find this app helpful and efficient. Happy posting!
